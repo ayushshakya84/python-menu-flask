@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Remote Menu</h1>
+<form id="remoteForm">
+    <div class="form-group">
+        <label for="ip">Remote IP:</label>
+        <input type="text" id="ip" name="ip" class="form-control" required>
+    </div>
+</form>
+<div class="list-group">
+    <button class="list-group-item list-group-item-action" onclick="performRemoteAction('create_file')">Create File</button>
+    <button class="list-group-item list-group-item-action" onclick="performRemoteAction('create_folder')">Create Folder</button>
+    <button class="list-group-item list-group-item-action" onclick="performRemoteAction('show_date')">Show Date</button>
+    <button class="list-group-item list-group-item-action" onclick="performRemoteAction('show_calendar')">Show Calendar</button>
+    <button class="list-group-item list-group-item-action" onclick="performRemoteAction('install_software')">Install Software</button>
+</div>
+<div id="result" class="mt-3"></div>
+{% endblock %}

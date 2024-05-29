@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Dashboard</h1>
+<p>Welcome, {{ name }}!</p>
+<div class="list-group">
+    <a href="{{ url_for('local_menu') }}" class="list-group-item list-group-item-action">Local Menu</a>
+    <a href="{{ url_for('remote_menu') }}" class="list-group-item list-group-item-action">Remote Menu</a>
+    <a href="{{ url_for('networking_menu') }}" class="list-group-item list-group-item-action">Networking Menu</a>
+</div>
+{% endblock %}
