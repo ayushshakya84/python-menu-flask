@@ -3,7 +3,7 @@ import subprocess
 import getpass
 
 app = Flask(__name__)
-app.secret_key = 'redhat'  # Required for session management
+app.secret_key = 'your_secret_key'  # Required for session management
 
 def run_command(command):
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
@@ -97,4 +97,4 @@ def ssh_execute():
     return redirect(url_for('menu'))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
