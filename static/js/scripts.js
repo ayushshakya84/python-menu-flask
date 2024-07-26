@@ -15,7 +15,7 @@ function performLocalAction(action) {
     });
 }
 
-function performRemoteAction(action) {
+function performRemoteAction(action) {  
     let data = {};
     let ip = $('#ip').val();
     if (!ip) {
