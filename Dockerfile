@@ -1,4 +1,4 @@
-From python:3.12.5
+FROM python:3.12.5-alpine3.19
 WORKDIR /app
 COPY . .
 RUN pip install gunicorn
