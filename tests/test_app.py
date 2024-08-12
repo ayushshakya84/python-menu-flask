@@ -1,6 +1,6 @@
 import unittest
 from xmlrunner import XMLTestRunner
-from main import app, db, User
+from app import app, db, User
 
 class FlaskTestCase(unittest.TestCase):
 
