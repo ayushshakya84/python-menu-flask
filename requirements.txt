@@ -4,4 +4,4 @@ SQLAlchemy==1.4.36
 Flask-Login==0.5.0
 Werkzeug==3.0.3
 unittest-xml-reporting==3.1.0
-junit2html==29
+junit2html==31.0.2
