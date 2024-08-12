@@ -1,6 +1,10 @@
 import unittest
+import os
+import sys
 from xmlrunner import XMLTestRunner
-from app import app, db, User
+from main import app, db, User
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class FlaskTestCase(unittest.TestCase):
 
