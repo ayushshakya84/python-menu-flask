@@ -2,4 +2,4 @@ app.yaml
 .gcloudignore
 venv/*
 test-reports/*
-_pychace_
+_pychace_/*
