@@ -4,3 +4,6 @@ venv/*
 test-reports/*
 __pychace__/*
 tests/*
+test.db
+user.db
+tests/__pycache__/
