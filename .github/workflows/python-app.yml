@@ -38,7 +38,7 @@ jobs:
       run: |
         PYTHONPATH=$(pwd) pytest --html=test-reports/results.html 
     - name: Archive code coverage results
-        uses: actions/upload-artifact@v4
-        with:
-          name: code-coverage-report
-          path: test-reports/results.html
+      uses: actions/upload-artifact@v4
+      with:
+        name: code-coverage-report
+        path: test-reports/results.html
