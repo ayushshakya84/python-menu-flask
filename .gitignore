@@ -5,5 +5,5 @@ test-reports/*
 __pychace__/*
 tests/*
 test.db
-user.db
+users.db
 tests/__pycache__/
