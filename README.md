@@ -33,8 +33,8 @@ This is a web-based application built using Flask, providing features such as us
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/ayushshakya84/python-menu-flask.git
+cd python-menu-flask
 ```
 
 ### Create a Virtual Environment and Install Dependencies
