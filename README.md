@@ -104,9 +104,6 @@ project/
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any feature requests, bug fixes, or improvements.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Acknowledgements
 - Flask documentation
 - SQLAlchemy for ORM
